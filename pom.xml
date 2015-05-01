@@ -7,12 +7,16 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>stormpath-example</name>
+    <name>shiro-stormpath-example</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <shiro.version>1.2.2</shiro.version>
+        <stormpath.applicationId>${shiro-stormpath-example.applicationId}</stormpath.applicationId>
+        <stormpath.apiKey.id>${shiro-stormpath-example.apiKey.id}</stormpath.apiKey.id>
+        <stormpath.apiKey.secret>${shiro-stormpath-example.apiKey.secret}</stormpath.apiKey.secret>
+        <stormpath.apiKey.file>${shiro-stormpath-example.apiKey.file}</stormpath.apiKey.file>
     </properties>
 
     <build>
