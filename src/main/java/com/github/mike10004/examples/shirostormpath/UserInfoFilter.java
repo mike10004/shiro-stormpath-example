@@ -7,7 +7,6 @@ package com.github.mike10004.examples.shirostormpath;
 
 import com.google.common.collect.Lists;
 import com.google.gson.GsonBuilder;
-import com.stormpath.sdk.account.Account;
 import java.io.IOException;
 import java.util.Collection;
 import java.util.LinkedHashMap;
